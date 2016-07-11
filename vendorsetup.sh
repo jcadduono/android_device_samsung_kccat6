@@ -1,2 +1,1 @@
 add_lunch_combo omni_kccat6-eng
-add_lunch_combo omni_kccat6-userdebug

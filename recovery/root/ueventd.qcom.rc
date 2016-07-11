@@ -44,13 +44,11 @@
 
 #permissions for CSVT
 /dev/smd11                0660   radio      radio
-
-#permissions for CIQ
-/dev/ciq_bridge           0660   system     system
+/dev/ciq_bridge		  0660   system     system
 
 /dev/radio0               0640   system     system
 /dev/rfcomm0              0660   bluetooth  bluetooth
-/dev/ttyUSB0              0660   radio      radio
+/dev/ttyUSB0              0660   radio	    radio
 /dev/smdcntl0             0640   radio      radio
 /dev/smdcntl1             0640   radio      radio
 /dev/smdcntl2             0640   radio      radio
@@ -155,7 +153,6 @@
 /dev/tty_sdio_00          0660   system     system
 /dev/ttyGS0               0660   system     system
 /dev/i2c-5                0660   media       media
-/dev/voice_svc            0660   system     audio
 
 # DVB devices
 /dev/dvb/adapter0/demux*  0440   media       media
@@ -193,3 +190,4 @@
 # Audience
 /dev/adnc2                 0660   system     system
 /dev/adnc3                 0660   system     system
+
